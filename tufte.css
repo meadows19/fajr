@@ -172,6 +172,7 @@ img { max-width: 100%; }
 img.bismillah { width: 70%; }
 span.ra { white-space: nowrap; }
 span.ra > img { height:0.9em; vertical-align: -0.15em;}
+small { line-height:0; }
 
 .sidenote, .marginnote { float: right;
                          clear: right;
