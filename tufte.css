@@ -170,7 +170,7 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
 /* Sidenotes, margin notes, figures, captions */
 img { max-width: 100%; }
 img.bismillah { width: 70%; }
-img.ra { height:0.9em; vertical-align: -0.15em; white-space: nowrap;}
+img.ra { height:0.9em; vertical-align: -0.15em;}
 
 .sidenote, .marginnote { float: right;
                          clear: right;
@@ -268,7 +268,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                          margin-right: 0em; }
                             blockquote p, blockquote footer { width: 100%; }
                             label.margin-toggle:not(.sidenote-number) { display: inline; }
-                            .sidenote, .marginnote { display: block; }
+                            .sidenote, .marginnote { left: -200%; }
                             .margin-toggle:checked + .sidenote,
                             .margin-toggle:checked + .marginnote { display: block;
                                                                    float: left;
