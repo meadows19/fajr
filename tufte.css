@@ -186,6 +186,7 @@ img.ra { height:0.9em; vertical-align: -0.15em; }
 .sidenote-number { counter-increment: sidenote-counter; }
 
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
+                                           color: rgb(220, 40, 40);
                                            font-family: et-book-roman-old-style;
                                            position: relative;
                                            vertical-align: baseline; }
