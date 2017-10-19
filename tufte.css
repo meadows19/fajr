@@ -281,5 +281,5 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             label { cursor: pointer; }
                             div.table-wrapper, table { width: 85%; }
                             img { width: 100%; }
-                            img.bismillah { width: 90%; }
+                            img.bismillah { width: 100%; }
                             img.ra { width:auto; } }
